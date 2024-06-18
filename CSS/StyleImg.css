@@ -1,0 +1,45 @@
+/* Estilo para as imagens na seção 'Sobre Nós' */
+.imagem-sobre {
+    text-align: center; /* Centraliza o conteúdo dentro do elemento pai */
+    margin-bottom: 10px; /* Espaço inferior menor para separar a imagem do próximo elemento */
+}
+
+.imagem-sobre img {
+    max-width: 30%; /* Largura máxima da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    border-radius: 8px; /* Borda arredondada para a imagem */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra suave ao redor da imagem */
+}
+
+/*------------------------------------------------------------------------------------------------*/
+
+/* Estilo para a imagem de contato */
+.contato-imagem {
+    display: block; /* Transforma a imagem em bloco para centralização */
+    margin: 20px auto; /* Margens automáticas para centralizar a imagem horizontalmente */
+    width: 50%; /* Largura da imagem */
+    max-width: 400px; /* Largura máxima da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    border-radius: 8px; /* Borda arredondada para a imagem */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra suave ao redor da imagem */
+}
+
+/*-----------------------------------------------------------------------------------------------*/
+
+/* Estilo para a imagem dentro do elemento de classe 'projeto' */
+.projeto img {
+    width: 45%; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    border-radius: 10px; /* Borda arredondada para a imagem */
+    margin-bottom: 20px; /* Espaçamento inferior para separar a imagem do texto */
+    box-shadow: 5px 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave à direita da imagem */
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+/* Estilo para as imagens dos slides no carrossel */
+.slide img {
+    width: 100%; /* Largura da imagem ocupando todo o espaço do slide */
+    height: auto; /* Altura ajustada automaticamente para manter a proporção */
+    object-fit: cover; /* Redimensiona e corta a imagem para cobrir todo o espaço do slide */
+}

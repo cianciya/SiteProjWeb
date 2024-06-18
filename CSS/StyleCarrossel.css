@@ -1,0 +1,40 @@
+.anterior,
+.proximo {
+    position: absolute; /* Posição absoluta para os botões de navegação */
+    top: 50%; /* Posiciona os botões verticalmente ao centro */
+    transform: translateY(-50%); /* Ajuste fino para centralizar verticalmente */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente preto */
+    color: #fff; /* Cor do texto branca */
+    border: none; /* Sem borda nos botões */
+    padding: 10px; /* Espaçamento interno dos botões */
+    cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+    z-index: 1; /* Garante que os botões estejam acima dos slides */
+}
+
+.anterior {
+    left: 0; /* Posiciona o botão 'anterior' à esquerda */
+}
+
+.proximo {
+    right: 0; /* Posiciona o botão 'próximo' à direita */
+}
+
+/*-------------------------------------------------------------------*/
+/* Ajuste para o carrossel */
+.slideshow-container {
+    position: relative; /* Mantém o contexto de posicionamento para os slides */
+    max-width: 1000px; /* Largura máxima do contêiner do carrossel */
+    margin: auto; /* Centraliza o carrossel horizontalmente na página */
+    overflow: hidden; /* Esconde qualquer conteúdo adicional que exceda o contêiner */
+}
+
+/*-------------------------------------------------------------------*/
+/* Estilo para os slides */
+.slides {
+    display: flex; /* Utiliza flexbox para alinhar os slides horizontalmente */
+}
+
+.slide {
+    flex: 0 0 100%; /* Define a largura fixa de cada slide como 100% da largura do contêiner */
+}
+/*----------------------------------------------------------------*/

@@ -1,0 +1,105 @@
+/* Estilo para o corpo do documento */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte padrão para todo o documento */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+    background: linear-gradient(to right, #7ec8e3, #23547c); /* Fundo gradiente linear */
+    color: #fff; /* Cor do texto */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o cabeçalho */
+header {
+    padding: 20px 0; /* Preenchimento superior e inferior do cabeçalho */
+    text-align: center; /* Centraliza o conteúdo do cabeçalho */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para a navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o preenchimento padrão da lista */
+    display: flex; /* Mostra os itens da lista como flexíveis */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espaçamento entre os itens da lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove decoração de link padrão */
+    color: #fff; /* Cor do texto dos links */
+    font-weight: bold; /* Define a fonte em negrito */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    transition: color 0.3s ease; /* Transição suave para a cor do texto */
+}
+
+nav ul li a:hover {
+    color: #ddd; /* Cor do texto ao passar o mouse sobre o link */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o contêiner principal */
+main {
+    display: flex; /* Exibe os elementos como flexíveis */
+    flex-wrap: wrap; /* Permite que os elementos dentro de 'main' se ajustem ao tamanho da tela */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para as seções */
+section {
+    margin-bottom: 40px; /* Espaçamento inferior entre as seções */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para cada projeto */
+.projeto {
+    display: flex; /* Exibe os elementos do projeto como flexíveis */
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: center; /* Alinha os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que os elementos dentro do projeto se ajustem ao redimensionamento da tela */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 40px; /* Espaçamento inferior entre os projetos */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o conteúdo */
+.content {
+    display: flex; /* Exibe os elementos como flexíveis */
+    flex-direction: column; /* Define a direção da coluna para o conteúdo */
+    align-items: center; /* Alinha os itens centralmente */
+    width: 50%; /* Largura do conteúdo */
+    margin-right: 10px; /* Margem à direita */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o contêiner */
+.container {
+    display: flex; /* Exibe os elementos como flexíveis */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    height: 74vh; /* Altura do contêiner */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o botão de retorno ao topo */
+.botao-topo {
+    position: fixed; /* Define a posição fixa para o botão */
+    background-color: transparent; /* Cor de fundo transparente */
+    right: 10px; /* Posicionamento à direita */
+    bottom: 10px; /* Posicionamento na parte inferior */
+    border: 1px solid transparent; /* Borda transparente */
+    border-radius: 35px; /* Raio da borda para criar bordas arredondadas */
+    width: 35px; /* Largura do botão */
+    height: 35px; /* Altura do botão */
+    background-image: url("./Imagens/arrow-up.svg"); /* Imagem de seta para cima como fundo */
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> <!-- Definindo o conjunto de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração de viewport para responsividade -->
+    <title>Contato - Escritório de Arquitetura</title> <!-- Título da página -->
+    <link rel="stylesheet" href="CSS/StylePage.css"> <!-- Importação do arquivo de estilos StylePage.css -->
+    <link rel="stylesheet" href="CSS/StyleImg.css"> <!-- Importação do arquivo de estilos StyleImg.css -->
+    <link rel="stylesheet" href="CSS/StyleFor.css"> <!-- Importação do arquivo de estilos StyleFor.css -->
+    <link rel="stylesheet" href="CSS/StyleText.css"> <!-- Importação do arquivo de estilos StyleText.css -->
+</head>
+<body>
+    <header>
+        <h1>Contato</h1> <!-- Título principal da página -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> <!-- Link para a página inicial -->
+                <li><a href="portifolio.html">Portfolio</a></li> <!-- Link para a página de portfólio -->
+                <li><a href="sobre.html">Sobre Nós</a></li> <!-- Link para a página 'Sobre Nós' -->
+                <li><a href="contato.html">Contato</a></li> <!-- Link para a própria página de contato (ativa) -->
+                <li><a href="Projetos3D.html">Projetos 3D</a></li> <!-- Link para a página de projetos 3D -->
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="content">
+            <h2>Entre em Contato</h2> <!-- Título da seção de formulário -->
+            <form id="formulario-contato" class="formulario-contato"> <!-- Formulário de contato -->
+                <label for="nome">Nome:</label> <!-- Campo de entrada para o nome -->
+                <input type="text" id="nome" name="nome" required><br>
+                <label for="sobrenome">Sobrenome:</label> <!-- Campo de entrada para o sobrenome -->
+                <input type="text" id="sobrenome" name="sobrenome" required><br>
+                <label for="email">Email:</label> <!-- Campo de entrada para o email -->
+                <input type="email" id="email" name="email" required><br>
+                <label for="telefone">Telefone:</label> <!-- Campo de entrada para o telefone -->
+                <input type="tel" id="telefone" name="telefone" required><br>
+                <label for="mensagem">Mensagem:</label><br> <!-- Campo de entrada para a mensagem -->
+                <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+                <input type="submit" value="Enviar"> <!-- Botão de envio do formulário -->
+            </form>
+        </section>
+        <img src="CSS/Imagens/Logo.jfif" alt="Contato" class="contato-imagem"> <!-- Imagem relacionada ao contato -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Escritório de Arquitetura. Todos os direitos reservados.</p> <!-- Rodapé com informações de direitos autorais -->
+    </footer>
+    <button class="botao-topo"></button> <!-- Botão para retornar ao topo da página -->
+    <script src="JavaScript/Script.js"></script> <!-- Importação do arquivo de script JavaScript -->
+</body>
+</html>

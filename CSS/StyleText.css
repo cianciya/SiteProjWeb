@@ -1,0 +1,36 @@
+/* Estilo para o título principal */
+h1 {
+    margin: 0; /* Remove margens padrão do título */
+    font-size: 36px; /* Tamanho da fonte do título */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o subtítulo das seções */
+h2 {
+    font-size: 24px; /* Tamanho da fonte do subtítulo */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    color: #fff; /* Cor do texto do subtítulo */
+    text-align: center; /* Centraliza o texto do subtítulo */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o texto */
+p {
+    font-size: 18px; /* Tamanho da fonte do texto */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    text-align: center; /* Centraliza o texto */
+}
+
+/*-------------------------------------------------------------------*/
+
+/* Estilo para o texto dentro do projeto */
+.projeto p {
+    width: 50%; /* Define a largura do texto como 50% da largura da tela */
+    font-size: 18px; /* Tamanho da fonte do texto */
+    line-height: 1.6; /* Altura da linha para melhor legibilidade */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    margin-left: 20px; /* Margem à esquerda para separar o texto da imagem */
+}

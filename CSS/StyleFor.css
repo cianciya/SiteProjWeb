@@ -1,0 +1,46 @@
+/* Estilo para o formulário de contato */
+.formulario-contato {
+    max-width: 100%; /* Define a largura máxima do formulário como 100% do seu contêiner pai */
+    padding: 20px; /* Espaçamento interno do formulário */
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo do formulário com opacidade */
+    border-radius: 10px; /* Borda arredondada */
+    border: none; /* Remove a borda do formulário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar o formulário */
+    margin-bottom: 20px; /* Margem inferior para espaçamento entre elementos */
+}
+
+/* Estilo para os rótulos do formulário */
+label {
+    display: block; /* Define os rótulos como blocos para que cada um ocupe uma linha */
+    margin-bottom: 10px; /* Espaçamento inferior entre os rótulos */
+    font-weight: bold; /* Texto em negrito nos rótulos */
+    color: #333; /* Cor do texto dos rótulos */
+}
+
+/* Estilo para os campos de entrada de texto, email, telefone e área de texto */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%; /* Largura total dos campos de entrada */
+    padding: 10px; /* Espaçamento interno dos campos de entrada */
+    margin-bottom: 20px; /* Espaçamento inferior entre os campos de entrada */
+    border: 1px solid #ccc; /* Borda dos campos de entrada */
+    border-radius: 5px; /* Borda arredondada dos campos de entrada */
+    box-sizing: border-box; /* Inclui o padding e a borda no cálculo da largura total */
+}
+
+/* Estilo para o botão de envio do formulário */
+input[type="submit"] {
+    background-color: #2196F3; /* Cor de fundo do botão de envio */
+    color: #fff; /* Cor do texto do botão de envio */
+    border: none; /* Remove a borda do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* Mostra o cursor como ponteiro ao passar por cima */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo para o hover do botão de envio */
+input[type="submit"]:hover {
+    background-color: #0D47A1; /* Cor de fundo do botão ao passar o mouse */
+}
